@@ -29,6 +29,8 @@ services:
       - ../plugins/RecreatePCacheOnLogin:/var/www/src/plugins/RecreatePCacheOnLogin
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
 
+      - ../themes/Anapolis:/var/www/src/themes/Anapolis
+
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
       - JOBS_INTERVAL=10
