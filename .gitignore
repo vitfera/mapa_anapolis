@@ -2,3 +2,4 @@ docker-data
 node_modules
 vendor
 .env
+themes/Anapolis/assets/css/theme-BaseV2.css
