@@ -9,7 +9,7 @@ fi
 #exit; # E APAGUE ESSA LINHA
 
 # Domínio da instalação
-domain=(http://culturaemrede.anaopolis.go.gov.br/)
+domain=(culturaemrede.anaopolis.go.gov.br)
 
 # Informe um e-mail válido
 email="victor@victorferreira.com.br"
