@@ -5,14 +5,14 @@ if ! docker compose version >/dev/null 2>&1; then
   exit 1
 fi
 
-echo "EDITE ESTE ARQUIVO E DEFINA AS VARIÁVEIS domain, email e staging"
-exit; # E APAGUE ESSA LINHA
+#echo "EDITE ESTE ARQUIVO E DEFINA AS VARIÁVEIS domain, email e staging"
+#exit; # E APAGUE ESSA LINHA
 
 # Domínio da instalação
-domain=(meumapa.gov.br)
+domain=(http://culturaemrede.anaopolis.go.gov.br/)
 
 # Informe um e-mail válido
-email="webmaster@meumapa.gov.br"
+email="victor@victorferreira.com.br"
 
 # EVITA que se atinja o LIMITE DE REQUESTS ao Let's Encrypt enquanto se testa as configurações
 # defina stagin=0 quando os testes passarem e execute novamente o script
