@@ -21,7 +21,7 @@ $config = $app->config['social-media'];
         <div class="main-footer__content--logo">
             <div class="main-footer__content--logo-img">
                 <a href="#" target="_blank">
-                    <img src="<?php $this->asset('img/logo-secretaria.png'); ?>">
+                    <img src="<?php $this->asset('img/logo-secretaria.jpg'); ?>" style="width: 500px; padding-bottom: 30px;">
                 </a>
             </div>
     
